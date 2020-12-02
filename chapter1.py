@@ -15,8 +15,8 @@ haloWidth = int(haloWidth/6)
 haloHalfWidth = int(haloWidth/2)
 haloHalfHeight = int(haloHeight/2)
 
-print(haloHalfWidth)
-print(haloHalfHeight)
+# print(haloHalfWidth)
+# print(haloHalfHeight)
 haloOverlay = cv2.resize(haloOverlay, (haloWidth, haloHeight))
 # cv2.imshow('halo', haloOverlay)
 
